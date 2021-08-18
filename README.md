@@ -1,4 +1,10 @@
-### Hi there 👋
+### Hi I am Raith 👋
+
+<h3>Programmer / Nerd</h3>
+
+Developer for Neos, CytraX, RRDC and various other projects
+
+[![Ducky's GitHub stats](https://github-readme-stats.vercel.app/api?username=RaithSphere&show_icons=true&theme=slateorange)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **RaithSphere/RaithSphere** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

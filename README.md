@@ -2,7 +2,9 @@
 
 <h3>Programmer / Nerd</h3>
 
-Developer various other projects
+Developer for various projects
+
+[Raith's Selfhosted Repo's](https://source.raithsphe.re)
 
 [![Raith's GitHub stats](https://github-readme-stats.vercel.app/api?username=RaithSphere&show_icons=true&theme=slateorange)](https://github.com/anuraghazra/github-readme-stats)
 

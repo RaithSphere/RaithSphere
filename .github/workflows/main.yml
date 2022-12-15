@@ -1,5 +1,5 @@
 name: generate snake
-
+runs-on: self-hosted
 on:
   # run automatically every 6 hours
   schedule:

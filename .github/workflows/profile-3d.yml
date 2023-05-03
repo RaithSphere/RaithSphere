@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v2

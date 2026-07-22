@@ -3,7 +3,7 @@ blueprint:
   name: AWTRIX Weather ⛈️ + Forecast
   description: >
 
-    FML!!!!!
+    ### Icons
 
   domain: automation
   input:
@@ -415,7 +415,7 @@ blueprint:
         text:
       default: "w-sunset"
 
-mode: restart
+mode: single
 variables:
   device_ids: !input awtrix
   app_topic: jeef_weather

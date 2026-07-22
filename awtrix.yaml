@@ -419,17 +419,8 @@ mode: restart
 variables:
   device_ids: !input awtrix
   app_topic: jeef_weather
-  devices_topics: >-
-    {%- macro get_device_topic(device_id) %}
-    {{ states((device_entities(device_id) | select('search','device_topic') | list)[0]) }}
-    {%- endmacro %}
-
-    {%- set ns = namespace(devices=[]) %}
-    {%- for device_id in device_ids %}
-      {%- set device=get_device_topic(device_id)|replace(' ','') %}
-      {% set ns.devices = ns.devices + [ device ~ '/custom/' ~ app_topic] %}
-    {%- endfor %}
-    {{ ns.devices | reject('match','unavailable') | list}}
+  devices_topics:
+    - awtrix_e2e298/custom/jeef_weather
 
   forecast_var: !input forecast_var
   forecast: "{{state_attr(forecast_var,'forecast')}}"

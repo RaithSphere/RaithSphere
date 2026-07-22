@@ -683,6 +683,6 @@ action:
           data:
             qos: 0
             retain: false
-            topic: "{{ repeat.item ~ '_sun'}} "
+            topic: "{{ repeat.item ~ '_sun'}}"
             payload: >
               {{sun_payload}}
